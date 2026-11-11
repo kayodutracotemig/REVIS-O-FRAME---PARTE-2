@@ -1,0 +1,26 @@
+name: revisao
+description: revisao da Prova prática de Flutter com SQLite.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sqflite_common: 2.5.4+6
+  sqflite_common_ffi_web: 0.4.5+4
+  sqlite3: 2.9.4
+  device_preview: 1.2.0
+  # Provider is imported by main.dart and should be a direct app dependency.
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
